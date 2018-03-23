@@ -1,0 +1,73 @@
+
+.container {
+  max-width: 1200px;
+  font-family: 'Lato', 'lato' ,sans-serif;
+  
+}
+.container .searchinput {
+  background-color: #785985;
+  border: black;
+  width: 30%;
+  font-size: 1rem;
+  color: black;
+}
+.container .button {
+  background-color: #785985;
+  border: black;
+  width: 15%;
+  font-size: 1rem;
+}
+/* .container ul li a {
+  color: black;
+} */
+/* .container .bouncing img:hover {
+  animation: bounce 1s infinite alternate;
+} */
+.container .bubblewrap {
+  background-color: #0B0146;
+  padding: 20px;
+  color: black;
+  margin: 0px;
+}
+.container .bubblewrap img {
+animation: spin 2s linear infinite alternate;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused;
+  
+}
+.container .bubblewrap img:hover {
+  background-color: #785985;
+  opacity:0.7 !important;
+  animation-play-state: running; 
+}
+
+.container .bubblewrap p {
+  margin-top: 30px;
+  text-align: center;
+  color: #785985; 
+}
+
+.container .bubblewrap img {
+  margin: 3px;
+}
+.portal {
+  color: #785985;
+  background-color: #0B0146;
+}
+.container .feedback {
+  color: #785985;
+
+}
+
+
+/* @keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+} */
+@keyframes spin {
+  100% {transform: rotate(10turn); }
+}

@@ -1,0 +1,46 @@
+
+.container {
+  max-width: 1200px;
+  font-family: 'Lato', 'lato' ,sans-serif;
+  
+}
+.container .searchinput {
+  background-color: #785985;
+  border: black;
+  width: 30%;
+  font-size: 1rem;
+  color: black;
+}
+.container .button {
+  background-color: #785985;
+  border: black;
+  width: 15%;
+  font-size: 1rem;
+}
+/* .container ul li a {
+  color: black;
+} */
+.container .bubblewrap {
+  background-color: #0B0146;
+  padding: 10px;
+  color: black;
+  margin: 0px;
+}
+.container .bubblewrap p {
+  margin-top: 10px;
+  text-align: center;
+  color: #785985;
+  
+  
+}
+.container .bubblewrap img {
+  margin: 3px;
+}
+.portal {
+  color: #785985;
+  background-color: #0B0146;
+}
+.container .feedback {
+  color: #785985;
+
+}
