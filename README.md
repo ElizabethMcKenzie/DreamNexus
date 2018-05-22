@@ -1,6 +1,6 @@
 # DreamNexus
 
-this is the repo for http://www.dreamex.us
+this is the repo for http://www.dreamnex.us
 
 for maintainers, contributors, and just those that are curious.
 Bootstrap 4.0
