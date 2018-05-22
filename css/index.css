@@ -1,73 +1,80 @@
-
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 .container {
-  max-width: 1200px;
-  font-family: 'Lato', 'lato' ,sans-serif;
-  
+  max-width: 1100px;
+  font-family: 'Lato', 'lato', sans-serif;
+}
+.container ul li a {
+  color: black;
 }
 .container .searchinput {
   background-color: #785985;
   border: black;
-  width: 30%;
   font-size: 1rem;
-  color: black;
+}
+.container .searchcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 .container .button {
   background-color: #785985;
   border: black;
-  width: 15%;
   font-size: 1rem;
 }
-/* .container ul li a {
-  color: black;
-} */
-/* .container .bouncing img:hover {
-  animation: bounce 1s infinite alternate;
-} */
 .container .bubblewrap {
-  background-color: #0B0146;
+  background-color: #0b0146;
   padding: 20px;
   color: black;
   margin: 0px;
 }
 .container .bubblewrap img {
-animation: spin 2s linear infinite alternate;
+  animation: spin 2s linear infinite alternate;
   /*Set our animation play state to paused initially */
   animation-play-state: paused;
-  
+  margin: 3px;
 }
 .container .bubblewrap img:hover {
   background-color: #785985;
-  opacity:0.7 !important;
-  animation-play-state: running; 
+  opacity: 0.7 !important;
+  animation-play-state: running;
 }
-
 .container .bubblewrap p {
   margin-top: 30px;
   text-align: center;
-  color: #785985; 
-}
-
-.container .bubblewrap img {
-  margin: 3px;
-}
-.portal {
   color: #785985;
-  background-color: #0B0146;
+}
+.container .portal {
+  color: #785985;
+  background-color: #0b0146;
 }
 .container .feedback {
   color: #785985;
-
 }
-
-
-/* @keyframes bounce {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-15px);
-  }
-} */
+.container .jumbotron {
+  background-color: #88c8c2;
+  color: #ffffff;
+}
+.container .jumbotron p {
+  text-align: center;
+}
+.container .jumbotron img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 @keyframes spin {
-  100% {transform: rotate(10turn); }
+  100% {
+    transform: rotate(10turn);
+  }
+}
+input:-moz-placeholder {
+  color: #baa;
+}
+input::-webkit-input-placeholder {
+  color: #baa;
 }
